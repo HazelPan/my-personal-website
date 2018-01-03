@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+
+#nav {
+  height:50px;
+  margin: 0;
+  width: 100%;
+  font-family: sans-serif;
+  /*background-color: #E0E0E0;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+
+#logo {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+#logo img{
+  width: 120px;
+  border-radius: 16px;
+  border:4px solid #eee;
+}
+
+#content {
+  width: 100%;
+  font-family:sans-serif;
+  position: relative;
+  top: 5px;
+  text-align: center;
+  /*padding: 15px;*/
+
+}
+
+
+hr.bar {
+  border: 2px solid grey;
+  width: 100px;
+}
+
+.container {
+  width: 800px;
+  height:100%;
+  margin: 0 auto;
+  /*background-color: #E0E0E0;*/
+  background-color: #FFF;
+}
+
+.menu {
+  height: 100%;
+  background-color: #9D9D9D;
+  width: 100%;
+  border-radius: 5px;
+  text-align: right;
+  margin-top: 0px;
+  padding-right: 6px;
+
+}
+
+.menu li {
+  margin-right:0px;
+  margin-top: 8px;
+  width: 150px;
+  padding: 5px 0px;
+
+  border:2px solid 	#FFF;
+  border-radius: 10px;
+
+  font-style: Arial;
+  list-style-type: none;
+  text-align: center;
+  background-color: #F0F0F0	;
+  color: #000000;
+  display: inline-block;
+}
+
+li:hover  {
+  border: 1px solid #E0E0E0;
+  background-color: #fff;
+}
+
+li:hover a {
+  color: #4F4F4F;
+  font-weight: 800;
+}
+h1 {
+  text-align: center;
+}
+
+#about h1 {
+  margin-bottom: 0;
+
+}
+
+h3 {
+  margin: 0;
+}
+
+table {
+  margin: 0 auto;
+
+  /*margin-left: 35%;
+  margin-bottom: 20px;*/
+  font-size: 14px;
+  text-align: left;
+
+}
+
+th, td {
+  vertical-align: top;
+  color: #666;
+}
+
+td {
+  padding-left: 10px;
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
+#about,#my-work,#contact-me{
+  padding:50px 0 ;
+
+}
+
+#about,#my-work {
+  text-align: center;
+}
+
+#my-work-gallery {
+    text-align: center;
+}
+.item {
+  position: relative;
+  max-width: 30%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item-info {
+  /*border: 1px solid red;*/                    /* 標示用，排版完記得拿掉 */
+  background-color: rgba(255,255,255,.8);   /* 背景半透明 */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  padding: 25px 10px;
+  display: none;
+}
+
+.item:hover .item-info {
+  display: block;
+}
+
+#contact-me {
+  /* border: 1px solid grey;  標示用，完成後刪除 */
+  text-align: center;
+}
+
+form.contact-form {
+/*  border: 1px solid red;   標示用，完成後刪除 */
+  width: 50%;
+  margin: 0 auto;
+  /*text-align:left;*/
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+
+.form-row input, .form-row textarea {
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid #D6D9DC;
+  padding: 7px;
+}
+
+.form-row textarea {
+  resize: none;
+  height: 4em;
+}
+
+.form-row button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #9D9D9D
+}
+
+.form-row button[type="sumbit"] {
+  background-color: #9D9D9D;
+  color: #FFFFFF;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
